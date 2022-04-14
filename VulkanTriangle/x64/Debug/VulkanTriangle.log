@@ -1,6 +1,14 @@
-﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_DragQueryFileW referenced in function windowProc
-glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_DragQueryPoint referenced in function windowProc
-glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_DragFinish referenced in function windowProc
-glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp_DragAcceptFiles referenced in function createNativeWindow
-C:\Users\nahue\Desktop\Things\Code\VulkanTriangle\VulkanTriangle\x64\Debug\VulkanTriangle.exe : fatal error LNK1120: 4 unresolved externals
+﻿  main.cpp
+  TriangleApp.cpp
+C:\Users\El puto amo\Desktop\Things\Projects\VK-Triangle\VulkanTriangle\Source\TriangleApp.cpp(21,61): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\El puto amo\Desktop\Things\Projects\VK-Triangle\VulkanTriangle\Source\TriangleApp.cpp(21,45): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+  VulkanTriangle.vcxproj -> C:\Users\El puto amo\Desktop\Things\Projects\VK-Triangle\x64\Debug\VulkanTriangle.exe
