@@ -17,8 +17,14 @@ private:
     void InitVulkan();
     void MainLoop();
     void Cleanup();
+
+    void CreateInstance();
 private:
     GLFWwindow* m_Window;
     std::string m_WindowName;
     glm::vec2 m_WindowSize;
+
+    VkInstance m_VkInstance;
+    uint32_t m_ExtensionCount;
+    const char** m_ExtensionsGLFW;
 };
